@@ -43,3 +43,8 @@ You'll need to download and install Visual Studio, and make sure to select the D
 
 Tonight we're going to cover some introductory stuff and I will use a little PowerPoint to do that. Typically speaking, I HATE PowerPoint, I will do my very best to NOT teach death-by-powerpoint and instead we'll work as much as possible in example based setting where I'm talking through working in the IDE. I taught JavaScript last semester and after the first night did not use PP at all. I'm hoping that we'll be able to do the same here.
 
+## COVID
+
+In today's world, we can't ignore the ongoing impact of the COVID pandemic. This is an in-person class, and as I mentioned in the attendance section, you are expected to attend. However, if you are exposed to or confirmed to have COVID, you should stay out of class during the recommended quarantine period. Contact me ASAP for instruction on how to proceed and we'll work to arrange either a zoom session during class or I'll recommend reading etc.  
+
+If __I__ have to quarantine, we'll have to move the class fully to Zoom for the duration of impact, hopefully just one class given that this is a once-per-week course. __PLEASE GET IN THE HABIT OF CHECKING D2L AND YOUR EMAIL BEFORE YOU LEAVE HOME/WORK/WHEREVER YOU COME FROM TO COME TO THIS CLASS!__  I will post any changes there. I will try to make any updates by the morning of class unless the nature of the change dictates otherwise--i.e., if I found out at 3pm that I couldn't be in class, then that's the earliest I can let you know!
