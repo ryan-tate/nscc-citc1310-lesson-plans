@@ -40,6 +40,8 @@ We will be using Visual Studio as the IDE in this course.  Visual Studio Communi
 
 You'll need to download and install Visual Studio, and make sure to select the Desktop development (C# / Windows Forms). It does look a little different from the book exmaples as versions have changed.
 
+Visual Studio is NOT the same as Visual Studio Code.  VS Code is a text editor, NOT a full IDE. You will need the full-blown Visual Studio for this course.
+
 ## Teaching Style
 
 Tonight we're going to cover some introductory stuff and I will use a little PowerPoint to do that. Typically speaking, I HATE PowerPoint, I will do my very best to NOT teach death-by-powerpoint and instead we'll work as much as possible in example based setting where I'm talking through working in the IDE. I taught JavaScript last semester and after the first night did not use PP at all. I'm hoping that we'll be able to do the same here.
