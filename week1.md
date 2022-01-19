@@ -4,7 +4,7 @@
 
 ### Course Intro
 
-Welcome to __CITC 1310: PROGRAMMING 1__.  If that is NOT the course you were looking for, you may not be in the right place!  
+Welcome to __CITC 1310: PROGRAMMING 1__.  If that is NOT the course you were looking for, you may not be in the right place!  Or I may not be in the right place...depending on how many of you stand up and walk out now.
 
 This course is NOT an introductory programming class.  As a prerequisite, you should have taken Intro to Programming and Java Programming I.  This course WILL move a pace assuming you have some programming experience. If you have concerns about that, we need to speak offline.
 
