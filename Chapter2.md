@@ -58,5 +58,25 @@ _Add Button_
 
 ### Resizing and Moving Controls 
 
+Notice that our button is selected, it is enclosed by a bounding box and has resize handles shown around that box. With the object selected, we can drag the control to another location in our form, and we can also resize the control using the sizing handles.
+
+### More About Buttons
+
+When we work with buttons, one property we should ALWAYS change is the text. The text on a button should clearly identify the button's purpose. You would expect to normally see things like _Calculate Average_ or _Print Report_ on a button so that a user knows what should happen when the button is clicked.
+
+Keep in mind that while the button's text and its name intially have the same value, they are separate properties. The Text should hold a friendly, readable value for the user, while the name identified how the control will be referenced in code.
+
+### Changing a Control's Name
+
+In addition to changing the text, button names should be changed to something more meaningful as well.  Imagine the toolbar on something like Microsoft word, think of how many button controls. If you're working in code, what is more meaningful, something like btnSaveAs or button214.
+
+In this course, you should always identify the type of control, then (using camel case) identify the control's purpose or function.  A button that calculates taxes for instance may have a text property of 'Calculate Tax' and a name of 'btnCalculateTax'
+
+The __NAME__ cannot contain spaces, but the text can.
+
+> #### NOTE: The book does not specifically teach the method I have discussed for prefacing the control's name with the control type, but you WILL BE EXPECTED TO FOLLOW THIS IN YOUR ASSIGNMENTS.
+
+
+
 
 
