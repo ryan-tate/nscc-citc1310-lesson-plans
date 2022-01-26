@@ -127,5 +127,48 @@ In C#, __string literals__ must be enclosed in DOUBLE quotation marks.
 Let's add a few more buttons `btnSecond` and `btnThird`  and let's attach event handlers to each.  We'll use a simple message box again to show some distinct message on each
 
 
+### Design Time and Run Time
+
+We'll talk throughout the development process about things that can occur at design time and run time.  When you have a project open in VS and you're building a GUI or writing the application's code, that's referred to as __design time__.  During design time, you can use the Designer and the Toolbox to place controls, use the Properties window to set property values, use the code editor to write code, and so on.
+
+When you actually are ready to execute the program and press <kbd>F5</kbd> or click the Start button on the toolbar, the program will be compiled. If there are no compiler errors, the program is executed. The time during which an app is running is called run time. During that time you can interact with the interface, but you cannot access Designer or change the application's code.
+
+## 2.5 Label Controls
+
+So we've worked with some buttons, but we'll need more than just button controls in most applications. Another very common control type is a label. 
 
 
+As you might exepct, this label can be changed at design time, and can PROGRAMMATICALLY be changed at run time, but a user cannot directly interact with a label control like that can a textbox, for example.  
+
+Let's clean up our application and start with just a label.  When we add the label, it gets a generic name and text property like 'label1'.  I'm going to change my label's text property to say "This is a label control".  Normally, we'd want to give this a more meaningful name, too.
+
+Let's look at some of the other properties we can set on our label.
+
+Let's find the __Font__ property and expand it. We see seveal child properties here, font name, size, etc.  Let's modify a few of these and see our label change.
+
+Next, find the BorderStyle property.  Check out the different border styles available.
+
+Notice that our label, unlike the button, does NOT have sizing handles around it.  By default, labels are set to auto size.  You can toggle this by setting the label's __AutoSize__ proeprty to false.  If we do that, we can manually choose the size of our label control.
+
+Next, let's find the __TextAlign__ property.  Adjust this property to change where your text is anchored (aligned) within the control.
+
+### Using Code to Display Output in a Label Control
+
+So far, we've been setting the label's value at Design Time.  Another use of a label is to show output at run time.
+
+Let's add a button back to our APplication and call it btnDisplayMsg again. I'll set the text of the button to "Click Me" 
+
+Below that, let's add a label. 
+* name: lblOutput
+* text: (none)
+* AutoSize: false
+* size: (large enough)
+
+Now let's add an event handler to our button by double-clicking the BUTTON
+
+```C#
+private void btnDisplayMsg_Click(object sender, EventArgs e)
+{
+  lblOutput.Text = "Thank you for clicking the button";
+}
+```
