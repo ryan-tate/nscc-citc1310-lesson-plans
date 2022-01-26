@@ -74,8 +74,57 @@ In this course, you should always identify the type of control, then (using came
 
 The __NAME__ cannot contain spaces, but the text can.
 
-> #### NOTE: The book does not specifically teach the method I have discussed for prefacing the control's name with the control type, but you WILL BE EXPECTED TO FOLLOW THIS IN YOUR ASSIGNMENTS.
+> #### NOTE: The book does not specifically teach the method I have discussed for prefacing the control's name with the control type, but you WILL BE EXPECTED TO FOLLOW THIS IN YOUR ASSIGNMENTS.  This is known as Hungarian Notation
 
+
+
+## 2.2 Creating the GUI for your first Visual C# Application
+
+We worked throught this example, or one very similar to it last week, but let's take the time to do it again to get familiar with the process of building a simple GUI.
+
+We're going to divide this this two big parts: First we are going to design and build the application interface and second we'll write the code that causes the Hello World message to appear when the user clicks the Display message button.
+
+Add Button, Set Text, Set Name
+
+Start App to show it runs but does nothing
+
+## 2.3 Introduction to C# Code 
+
+Let's go ahead and open our code by right-clicking Form1.cs in the Solution Explorer and choosing View Code.
+
+Recall that last week we briefly discussed that the 'using' statements you see at the top of this are references to other __namespaces__.  A Namespace is a container that holds classes, classes are containers that hold methods, and methods are a grouping of one or more programming statements that perform some operation.
+
+So the 'using' directives here load other namespaces into our code file, and we're creating our OWN namespace here as well.
+
+We create a new namespace named Chapter_2_Demo and we enclose the entire namespace in a set of curly braces 
+
+Inside our Chapter_2_Demo namesapce we have a new Class called Form1.  Like our namespace, the class is also warpped in curly braces.
+
+> Pay attention to code formatting and indentation.  VS does a good job of doing this for you but I will expect the code you turn in to be readable! Don't give me a file with no identation and expect full credit!  If I cannot read your code, even if it compiles and runs correctly, I will deduct points.
+
+Finally, the `public Form1()` part is a method and `InitializeComponent()` is currently the only statement in that method
+
+### Adding Code
+
+What we're going to do now is code a special type of method know as an __event handler__ because it __handles__ or responds to a specific __event__ or action in your application.  Specifically here, we want to handle (or respond) to the click event of our button.  
+
+To get started, in my Designer, I'm goign to DOUBLE CLICK the button. WHen I do that, we'll see a new method called `btnDisplayMsg_Click` is created in our code automagically.
+
+This event handler exists and would technically fire if we clicked our button, but it doesn't contain any code so at the moment, it still wouldn't DO anything if we clicked the button.
+
+We need some code!
+
+For now, we want to display a Message Box or dialog box when the button is clicked.  So let's add this code `MessageBox.Show("Hello, World!");`
+
+#### String Literals
+
+We haven't really discussed data types yet, but as with any programming language, C# has certain data types.  One of these is a string, which is basically just text. In our example, we passed a string "Hello, World!" to the MessageBox.Show() method.  When a piece of data is written into the program's code, it's called a "literal" becasue the data is literally written into the program.  This is also sometimes called "hard coding."  So "Hello, World" is a __string literal__.
+
+In C#, __string literals__ must be enclosed in DOUBLE quotation marks.
+
+#### Multiple Buttons with Multiple Event Handlers 
+
+Let's add a few more buttons `btnSecond` and `btnThird`  and let's attach event handlers to each.  We'll use a simple message box again to show some distinct message on each
 
 
 
