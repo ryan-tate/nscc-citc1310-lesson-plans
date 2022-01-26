@@ -172,3 +172,26 @@ private void btnDisplayMsg_Click(object sender, EventArgs e)
   lblOutput.Text = "Thank you for clicking the button";
 }
 ```
+
+The <kbd>=</kbd> sign is the __assignment operator__ so we're __assigning__ the value "Thank you clicking the button" to the control `lblOutput`'s Text property
+
+The standard for accessing a control's proeprties in code is `ControlName.PropertyName`
+
+Let's look at another example
+
+Let's add some controls
+
+|Control Name|Control Type|Property Settings|
+|---|---|---|
+|lblQuestion|Label|__AutoSize__: false <br> __Font__: Size 12 <br>__Text__: "The Nashville Predators are a member of what professional sports league?" <br> __TextAlign__: TopCenter|
+|lblAnswer|Label|__AutoSize__: false <br> __BorderStyle__: FixedSingle <br> __Font__: Size 16 <br> __Text__: (none) <br> __TextAlign__: MiddleCenter|
+|btnShow|Button|__Text__: "Show the Answer"|
+
+In Code, when Show the Answer is clicked, let's set the `lblAnswer.Text = "National Hockey League";`
+
+We can enhance this with a clear button 
+
+btnClear Clear  `lblAnswer.Text = "";`
+
+
+
